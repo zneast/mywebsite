@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+section {
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Section-specific Styles */
+#stock-market {
+    background-color: #f2f2f2;
+}
+
+#peanut-butter {
+    background-color: #e6f7ff;
+}
+
+#bmw-cars {
+    background-color: #ffe6e6;
+}
