@@ -6,35 +6,48 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #f2f2f2;
 }
 
-header, footer {
+header {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    text-align: center;
 }
 
-h1, h2 {
-    color: #333;
-}
-
-section {
-    padding: 20px;
+h1 {
+    margin: 0;
 }
 
 p {
     margin-bottom: 20px;
 }
 
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
 /* Section-specific Styles */
 #stock-market {
-    background-color: #f2f2f2;
+    border-top: 5px solid #009688; /* Teal */
 }
 
 #peanut-butter {
-    background-color: #e6f7ff;
+    border-top: 5px solid #ff9800; /* Orange */
 }
 
 #bmw-cars {
-    background-color: #ffe6e6;
+    border-top: 5px solid #2196f3; /* Blue */
 }
